@@ -165,8 +165,8 @@ am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/aux-dist/compile \
 	$(top_srcdir)/aux-dist/ltmain.sh \
 	$(top_srcdir)/aux-dist/missing AUTHORS COPYING ChangeLog \
 	INSTALL NEWS README aux-dist/compile aux-dist/config.guess \
-	aux-dist/config.sub aux-dist/depcomp aux-dist/install-sh \
-	aux-dist/ltmain.sh aux-dist/missing
+	aux-dist/config.sub aux-dist/install-sh aux-dist/ltmain.sh \
+	aux-dist/missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -222,10 +222,6 @@ CCDEPMODE = @CCDEPMODE@
 CFLAGS = @CFLAGS@
 CPP = @CPP@
 CPPFLAGS = @CPPFLAGS@
-CXX = @CXX@
-CXXCPP = @CXXCPP@
-CXXDEPMODE = @CXXDEPMODE@
-CXXFLAGS = @CXXFLAGS@
 CYGPATH_W = @CYGPATH_W@
 DEFS = @DEFS@
 DEPDIR = @DEPDIR@
@@ -282,7 +278,6 @@ abs_top_builddir = @abs_top_builddir@
 abs_top_srcdir = @abs_top_srcdir@
 ac_ct_AR = @ac_ct_AR@
 ac_ct_CC = @ac_ct_CC@
-ac_ct_CXX = @ac_ct_CXX@
 ac_ct_DUMPBIN = @ac_ct_DUMPBIN@
 am__include = @am__include@
 am__leading_dot = @am__leading_dot@
